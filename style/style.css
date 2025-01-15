@@ -74,7 +74,7 @@ body {
 
 /* My Mission in 2025 section style  */
 .mission{
-    margin: 70px 0;
+    margin: 100px 0;
     align-items: center;
     
 }
@@ -129,6 +129,11 @@ body {
     margin: 100px 0;
     
 }
+.development h3{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(255, 173, 90);
+}
 .dev-box{
     display: flex;
     padding-bottom: 80px;
@@ -162,6 +167,33 @@ line-height: 54px;
 .box2{
     flex-direction: row-reverse;
 }
+/* Build Corona Application style  */
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-position:  top 0px left 240px ;
+    
+}
+.app-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.app-img{
+    background-image: url(../images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left 10px bottom 10px;
+}
+.app-img img{
+    width: 300px;
+height: 500px;
+}
+
 /* Small Device  */
 @media screen and (max-width:576px) {
     .hero {
@@ -172,14 +204,14 @@ line-height: 54px;
         display: grid;
 
     }
-    .dev-box{
+    .dev-box, .app{
         margin: 0 50px;
     display: grid;
     gap: 30px;
     background-image: none;
     }
+    
 }
-
 /* Medium Device  */
 @media screen and (min-width:577px) and (max-width:992px) {
     .hero {
@@ -192,7 +224,7 @@ line-height: 54px;
     margin: 0 70px;
 
     }
-    .dev-box{
+    .dev-box, .app{
         margin: 0 50px;
     display: grid;
     gap: 30px;

@@ -124,7 +124,44 @@ body {
 .card3 {
     background: rgb(255, 244, 214);
 }
+/* Development Section style  */
+.development{
+    margin: 100px 0;
+    
+}
+.dev-box{
+    display: flex;
+    padding-bottom: 80px;
 
+}
+.dev-box-img img{
+    width: 400px;
+height: 400px;
+}
+.dev-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../images/shapes/shape-1.1.png);
+    background-repeat: no-repeat;
+    background-position: left 0px top 60px;
+
+}
+.box2{
+    background-image: url(../images/shapes/shape-1.1.png);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom 20px;
+}
+.dev-box-title{
+    color: rgb(51, 51, 51);
+font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+}
+.box2{
+    flex-direction: row-reverse;
+}
 /* Small Device  */
 @media screen and (max-width:576px) {
     .hero {
@@ -134,6 +171,12 @@ body {
     .mission-hole-card{
         display: grid;
 
+    }
+    .dev-box{
+        margin: 0 50px;
+    display: grid;
+    gap: 30px;
+    background-image: none;
     }
 }
 
@@ -148,5 +191,11 @@ body {
     grid-template-columns: auto auto;
     margin: 0 70px;
 
+    }
+    .dev-box{
+        margin: 0 50px;
+    display: grid;
+    gap: 30px;
+    background-image: none;
     }
 }

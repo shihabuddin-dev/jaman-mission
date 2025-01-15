@@ -193,6 +193,33 @@ line-height: 54px;
     width: 300px;
 height: 500px;
 }
+/* Footer section style  */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    height: 177px;
+background: rgb(11, 13, 23);
+text-align: center;
+}
+.footer h2 span{
+    color: rgb(255, 89, 89);
+}
+.footer-title{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+color: white;
+}
+.footer-caption{
+    color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+}
 
 /* Small Device  */
 @media screen and (max-width:576px) {

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Yeseva One", serif;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+/* Hero Section Style  */
+.hero{
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+
+}
+.hero-text{
+    padding-top: 90px;
+}
+.hero-title{
+    font-size: 60px;
+font-weight: 400;
+line-height: 80px;
+}
+.hero-title span{
+    color: rgb(255, 173, 90);
+}
+.caption{
+    color: rgb(62, 62, 62);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+padding: 15px 0;
+}
+.btn{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+border: none;
+    padding: 12px 25px 12px 25px;
+    border-radius: 5px;
+background: rgb(255, 89, 89);
+}
+.hero-img{
+    width: 426px;
+height: 426px;
+}
+.hero-img1{
+    width: 100%;
+    height: auto;
+}
+/* Small Device  */
+@media screen and (max-width:576px) {
+    .hero{
+        flex-direction: column-reverse;
+    padding: 0 60px;
+}
+  }
+
+/* Medium Device  */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .hero{
+        flex-direction: column-reverse;
+}
+}
